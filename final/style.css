@@ -1,12 +1,21 @@
+ /* formatting that affects only the html "body" tag */
  body {
+    /* sets the body to a margin of 50 pixels to both sides */
     margin: 50px;
+    /* sets the body to a font family of Helvetica, sans-serif */
     font-family: Helvetica, sans-serif;
+    /* sets the font size of the body to 150% for better clarity and visibility */
     font-size: 150%;
 }
 
+/* formatting that affects only the html "fieldset" tag */
 fieldset {
-    background-color:rgb(255,246,205);	
+    /* sets the background color of the fieldset (which contains the user inputs form) to a yellow color */
+    background-color:rgb(255,246,205);
+    /* sets the border color of the fieldset border (which contains the user inputs form) to a red color */
     border:1px solid rgb(233,69,0);
+    /* sets the thickness of the margin area of the fieldset */
     margin:10px 0px 30px 2.5%;
+    /* specifies the width of the fieldset content area */
     width:30%;
 }
