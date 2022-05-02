@@ -9,38 +9,34 @@
 
 <body>
 
+<!-- "Calorie Counter" heading name -->
 <h2>Calories Counter</h2>
 
-<!-- return set to false to prevent default form submission to a URL
-<form name = "mainForm" onsubmit="return false"> -->
-
+<form>
+<!-- Creates a simple, yet aesthetic <fieldset> border around the input fields of the form -->
     <fieldset id="calorieTracker">
+        <!-- a title known as a "legend" inside the <fieldset> border -->
         <legend>Calorie Tracker</legend>
+
+        <!-- Creates a new title + input field for "Food Names" -->
         <label for="foodName">Food Name:</label>
         <input name="foodName" id="foodName"><br>
+
+        <!-- Creates a new title + input field for the calories of food -->
         <label for="calorieNumber">Number of Calories:</label>
         <input name="calorieNumber" id="calorieNumber"><br>
 
-        <!-- write the js function "formsubmitevent()" in javascript -->
+        <!-- The Submit Button which is used for the "foodName" and "calorieNumber" forms -->
         <button type="button" id="submit">Submit Form</button>
     </fieldset>
 </form>
 
+<!-- Break Lines to Seperate this Form from the "Calorie Counter" text box -->
 <br> <br> <br>
 
+<!-- Creates a new title + input field for the total number calories from all the foods -->
 <label for="calorieTotal">Total Calories:</label>
 <input name="calorieTotal" id="calorieTotal"/><br>
-
-<!-- <textarea rows="1" cols="21" id="output" ></textarea> -->
-
-
-
-<!-- <button type="button" id="button1">Button</button>
-<div>
-    <br />
-    <input type="text" val="starting value" text="hello" id="textbox1" />
-    <br />
-</div> -->
 
 <script src="script.js"></script>
 </body>
