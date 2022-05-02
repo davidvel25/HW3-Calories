@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Calories</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<h2>Calories Counter</h2>
+
+<!-- return set to false to prevent default form submission to a URL -->
+<form name = "mainForm" onsubmit="return false">
+
+    <fieldset id="calorieTracker">
+        <legend>Calorie Tracker</legend>
+        <label for="foodName">Food Name:</label>
+        <input name="foodName" id="foodName"><br>
+        <label for="calorieNumber">Number of Calories:</label>
+        <input name="calorieNumber" id="calorieNumber"><br>
+
+        <!-- write the js function "formsubmitevent()" in javascript -->
+        <input type="submit" value="submit" onclick="formSubmitEvent()">
+    </fieldset>
+</form>
+
+<br> <br> <br>
+
+<label for="calorieTotal">Total Calories:</label>
+<input name="calorieTotal" id="calorieTotal"/><br>
+
+<!-- <textarea rows="1" cols="21" id="output" ></textarea> -->
+
+
+
+<!-- <button type="button" id="button1">Button</button>
+<div>
+    <br />
+    <input type="text" val="starting value" text="hello" id="textbox1" />
+    <br />
+</div> -->
+
+<script src="script.js"></script>
+</body>
+
+</html>
