@@ -1,4 +1,4 @@
 # HW3-Calories
-Calories Homework (HW3)
+Calories Homework (HW4)
 
-This is Homework 3 which is the Calories Homework.
+This is Homework 4 which is the Calories Homework.
