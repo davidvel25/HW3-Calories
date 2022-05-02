@@ -25,9 +25,9 @@ function submitForm(){
     let vName = document.getElementById("foodName").value;
     //derive the calories of the food in the textbox and assign it to the "vCal" variable
     let vCal = document.getElementById("calorieNumber").value;
-    console.log("submit form called");
-    console.log(vName);
-    console.log(vCal);
+    // console.log("submit form called");
+    // console.log(vName);
+    // console.log(vCal);
     //once the values of the textbox have been extracted, push this new Food to the "FoodArray" array
     FoodArray.push(new Food(vName, vCal));
 }
@@ -38,7 +38,7 @@ function clearFields(){
         document.getElementById("foodName").value = "";
         document.getElementById("calorieNumber").value = "";
         //prints the "FoodArray" array to the console
-        console.log(FoodArray);
+        // console.log(FoodArray);
 }
 
 //a function to calculate the total Calories of all the foods in the "foodArray" array
@@ -50,8 +50,8 @@ function calculateTotal(){
     for (i = 0; i < FoodArray.length; i++) {
         //updates the "calorieCount" variable that was initially at 0 by adding the calorie number of the new food item
         calorieCount += FoodArray[i].cal;
-        console.log(FoodArray[i]);
-        console.log(calorieCount);
+        // console.log(FoodArray[i]);
+        // console.log(calorieCount);
     }
     //display the final calorieCount after adding all the calories from all the foods in the "FoodArray" into the textbox titled "calorieTotal"
     document.getElementById("calorieTotal").value = calorieCount;
